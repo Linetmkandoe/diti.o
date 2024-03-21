@@ -1,0 +1,211 @@
+body {
+  background-color: white;
+  color: black;
+}
+.topnav {
+  display: flex;
+  justify-content: space-around;
+}
+.nav {
+  gap: 20px;
+}
+button {
+  color: white;
+  background-color: purple;
+}
+.first {
+  size: 2%;
+  display: flex;
+  justify-content: space-around;
+}
+#photo1 {
+  height: 250px;
+  width: 150px;
+}
+#icon1 {
+  height: 50px;
+}
+#icon2 {
+  height: 45px;
+}
+#icon3 {
+  height: 70px;
+}
+#icon4 {
+  height: 40px;
+}
+#icon5 {
+  height: 40px;
+}
+.icon {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.second {
+  display: flex;
+  justify-content: space-around;
+}
+#icon6 {
+  height: 40px;
+}
+#icon7 {
+  height: 40px;
+}
+.third {
+  display: flex;
+  justify-content: space-around;
+}
+#icon9 {
+  height: 70px;
+  width: 70px;
+}
+#icon10 {
+  height: 50px;
+}
+.fifth {
+  display: flex;
+  padding-right: 20px;
+  justify-content: space-around;
+}
+.fourth {
+  display: flex;
+  justify-content: space-around;
+}
+.sixth {
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 100px;
+}
+#photo6 {
+  height: 100px;
+  width: 130px;
+  padding-right: 40px;
+}
+.seven {
+  display: flex;
+  justify-content: space-around;
+}
+#photo5 {
+  height: 30px;
+}
+#photo4 {
+  height: 30px;
+}
+.slant {
+  display: flex;
+
+  justify-content: space-around;
+}
+.salary {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+.container2 {
+  display: flex;
+  justify-content: space-around;
+}
+#edwin {
+  height: 70px;
+}
+#jesco {
+  height: 70px;
+}
+.bottom {
+  display: flex;
+  justify-content: space-around;
+}
+
+#blue {
+  background-color: navy;
+  color: white;
+}
+#white {
+  background-color: white;
+  color: black;
+}
+.photo {
+  display: flex;
+  height: 20px;
+  width: 30px;
+  justify-content: space-around;
+}
+.footer {
+  background-color: purple;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+.bottomfooter {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+.one {
+  justify-content: space-around;
+  margin-left: 90px;
+}
+.two {
+  justify-content: space-around;
+  margin-left: 50px;
+}
+
+@media screen and (min-width: 375px) and (max-width: 700px) {
+  #photo1 {
+    height: 100px;
+    width: 100px;
+  }
+  .topnav {
+    flex-wrap: wrap;
+    gap: 2px;
+    padding-left: 20px;
+    margin-right: 20px;
+    justify-content: space-around;
+  }
+
+  .first {
+    size: 2%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .fifth {
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+  }
+
+  .third {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .bottom {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .footer {
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-left: 0px;
+    margin-right: 0px;
+    justify-content: space-around;
+  }
+  .sixth {
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 80px;
+    padding-left: 30px;
+  }
+  .two {
+    flex-wrap: wrap;
+  }
+  .second {
+    flex-wrap: wrap;
+  }
+  .heading {
+    padding-left: 30px;
+  }
+}
